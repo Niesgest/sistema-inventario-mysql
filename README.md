@@ -30,7 +30,7 @@ Aplicación por consola desarrollada en **Java** conectada a una base de datos r
 
 Ejecuta el siguiente script en tu gestor de base de datos (phpMyAdmin / MySQL Workbench):
 
-```sql
+```sql 
 CREATE DATABASE IF NOT EXISTS inventario_db;
 USE inventario_db;
 
@@ -40,3 +40,34 @@ CREATE TABLE IF NOT EXISTS productos (
     precio DOUBLE NOT NULL,
     stock INT NOT NULL
 );
+```
+
+---
+
+##  Cómo Ejecutar el Proyecto
+
+Requisitos previos
+
+Tener instalado el Java Development Kit (JDK 17 o superior).
+
+Tener un servidor MySQL activo (por ejemplo, mediante XAMPP con los servicios de Apache y MySQL iniciados).
+
+Conector mysql-connector-j configurado en el proyecto.
+
+##  Instrucciones de ejecución
+
+Clonar el repositorio:
+
+git clone [https://github.com/Niesgest/sistema-inventario-mysql.git](https://github.com/Niesgest/sistema-inventario-mysql.git)
+Abrir en tu IDE preferido (IntelliJ IDEA recomendado):
+
+Asegúrate de que la dependencia de MySQL Connector esté vinculada al proyecto.
+
+Ejecuta la clase InventarioApp.java.
+
+👤 Autor
+Desarrollador: Jose Lozada
+
+GitHub: @Niesgest
+
+LinkedIn: https://www.linkedin.com/in/jose-armando-lozada-aguirre-81b6283b2/
