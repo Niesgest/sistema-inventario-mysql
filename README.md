@@ -54,6 +54,8 @@ Tener un servidor MySQL activo (por ejemplo, mediante XAMPP con los servicios de
 
 Conector `mysql-connector-j` configurado en el proyecto.
 
+---
+
 ##  Instrucciones de ejecución
 
 Clonar el repositorio:
@@ -66,7 +68,10 @@ Asegúrate de que la dependencia de MySQL Connector esté vinculada al proyecto.
 
 Ejecuta la clase `InventarioApp.java`.
 
-👤 Autor
+---
+
+##  Autor
+
 Desarrollador: Jose Lozada
 
 GitHub: @Niesgest
