@@ -46,24 +46,25 @@ CREATE TABLE IF NOT EXISTS productos (
 
 ##  Cómo Ejecutar el Proyecto
 
-Requisitos previos
+Requisitos previos:
 
 Tener instalado el Java Development Kit (JDK 17 o superior).
 
 Tener un servidor MySQL activo (por ejemplo, mediante XAMPP con los servicios de Apache y MySQL iniciados).
 
-Conector mysql-connector-j configurado en el proyecto.
+Conector `mysql-connector-j` configurado en el proyecto.
 
 ##  Instrucciones de ejecución
 
 Clonar el repositorio:
 
-git clone [https://github.com/Niesgest/sistema-inventario-mysql.git](https://github.com/Niesgest/sistema-inventario-mysql.git)
+git clone `[https://github.com/Niesgest/sistema-inventario-mysql.git](https://github.com/Niesgest/sistema-inventario-mysql.git)`
+
 Abrir en tu IDE preferido (IntelliJ IDEA recomendado):
 
 Asegúrate de que la dependencia de MySQL Connector esté vinculada al proyecto.
 
-Ejecuta la clase InventarioApp.java.
+Ejecuta la clase `InventarioApp.java`.
 
 👤 Autor
 Desarrollador: Jose Lozada
