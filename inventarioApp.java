@@ -3,8 +3,6 @@ package inventario;
 import java.sql.*;
 import java.util.Scanner;
 
-record Producto(int id, String nombre, double precio, int stock) {}
-
 public class inventarioApp {
     private static Connection obtenerConexion() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
